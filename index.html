@@ -1,0 +1,417 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Portfolio Laura Wijaya Dinata — Backend Developer"
+    />
+    <title>Laura Wijaya Dinata — Backend Developer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="background-grid"></div>
+
+    <header class="navbar">
+      <a href="#home" class="brand">LWD<span>.</span></a>
+      <nav>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <a class="nav-cta" href="#projects">View Work <span>↗</span></a>
+    </header>
+
+    <main>
+      <section id="home" class="hero section">
+        <div class="hero-copy">
+          <div class="eyebrow"><span></span> BACKEND DEVELOPER</div>
+          <h1>Building systems<br />behind <em>the scenes.</em></h1>
+          <p class="hero-text">
+            Nama saya Laura Wijaya Dinata, dan saya membangun backend yang terstruktur, scalable, dan reliable —
+            dari database & business logic hingga REST API, authentication, dan
+            integrasi antar fitur.
+          </p>
+          <div class="hero-actions">
+            <a href="#projects" class="btn btn-primary"
+              >Explore Projects <span>↗</span></a
+            >
+            <a href="#about" class="btn btn-ghost">About Me</a>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <div class="code-window">
+            <div class="window-bar">
+              <div class="dots"><i></i><i></i><i></i></div>
+              <span>backend.go</span>
+            </div>
+            <pre><code><span class="purple">func</span> <span class="blue">BuildSystem</span>(ctx context.Context) {
+    <span class="purple">return</span> &amp;System{
+        Database:   <span class="yellow">"MariaDB"</span>,
+        API:        <span class="yellow">"REST"</span>,
+        Auth:       <span class="yellow">"JWT + RBAC"</span>,
+        Logic:      <span class="yellow">"Business Rules"</span>,
+    }
+}</code></pre>
+            <div class="terminal-line">
+              <span class="prompt">$</span> system.status
+              <span class="success">● operational</span>
+            </div>
+          </div>
+          <div class="floating-card card-top">
+            <span>05</span><small>ACTIVE<br />PROJECTS</small>
+          </div>
+          <div class="floating-card card-bottom">
+            <span>Go</span><small>PRIMARY<br />LANGUAGE</small>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="section split">
+        <div class="section-label">01 / ABOUT</div>
+        <div class="section-content">
+          <h2>Engineer with a<br /><em>problem-solving mindset.</em></h2>
+          <p>
+            Saya merupakan lulusan Sistem Informasi Bisnis dengan konsentrasi
+            Business Intelligence Universita Kristen Petra. Saya memiliki ketertarikan pada pengembangan sistem backend.
+          </p>
+          <p>
+            Saya memiliki pengalaman mengembangkan sistem backend untuk berbagai proyek
+            sistem informasi, mulai dari sistem manajemen, bengkel, hingga
+            hospitality. Dalam pengembangan proyek, saya terbiasa menangani
+            business logic, database, REST API, authentication, serta integrasi
+            antar fitur.
+          </p>
+          <p>
+            Saya merupakan pribadi yang teliti, kritis, dan berorientasi pada
+            solusi. Saya senang mempelajari hal baru dan terbiasa menghadapi
+            permasalahan teknis melalui proses analisis dan troubleshooting
+            secara sistematis.
+          </p>
+        </div>
+      </section>
+
+      <section id="skills" class="section">
+        <div class="section-label">02 / SKILLS</div>
+        <div class="skills-layout">
+          <div>
+            <h2>What I work<br /><em>with.</em></h2>
+            <p class="muted">
+              Tools and technical areas yang biasa saya gunakan dalam proses
+              development.
+            </p>
+          </div>
+
+          <div class="skill-grid">
+            <article class="skill-card">
+              <span class="skill-number">01</span>
+              <h3>Backend Development</h3>
+              <ul>
+                <li>Database Design &amp; ERD Analysis</li>
+                <li>Business Logic Implementation</li>
+                <li>REST API Development</li>
+                <li>Authentication &amp; Authorization</li>
+                <li>API Testing &amp; Debugging</li>
+              </ul>
+            </article>
+
+            <article class="skill-card">
+              <span class="skill-number">02</span>
+              <h3>Programming &amp; Database</h3>
+              <ul>
+                <li>Go</li>
+                <li>SQL</li>
+                <li>MySQL</li>
+                <li>MariaDB</li>
+              </ul>
+            </article>
+
+            <article class="skill-card">
+              <span class="skill-number">03</span>
+              <h3>Tools</h3>
+              <div class="tag-list">
+                <span>PhpMyAdmin</span>
+                <span>HeidiSQL</span>
+                <span>VS Code</span>
+                <span>Putty</span>
+                <span>Postman</span>
+                <span>Git</span>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects" class="section projects-section">
+        <div class="section-label">03 / PROJECTS</div>
+        <div class="project-intro">
+          <h2>Selected <em>projects.</em></h2>
+          <p class="muted">
+            Pengalaman pengembangan backend pada sistem dengan domain dan
+            kebutuhan bisnis yang berbeda.
+          </p>
+        </div>
+
+        <div class="projects">
+          <article class="project-card featured">
+            <div class="project-meta">
+              <span>PROJECT 01</span>
+              <span class="status done">SELESAI</span>
+            </div>
+            <div class="project-main">
+              <div>
+                <h3>Sistem Informasi dan Manajemen Kerajaan</h3>
+                <p class="role">Backend Developer</p>
+              </div>
+              <p class="project-description">
+                Sistem informasi multi-platform untuk pengelolaan dan
+                dokumentasi digital kerajaan-kerajaan tradisional di Indonesia,
+                mencakup profil kerajaan, anggota, situs bersejarah, aset
+                budaya, kegiatan, organisasi, komunitas, tugas, dokumen, dan hak
+                akses pengguna.
+              </p>
+            </div>
+
+            <div class="project-details">
+              <div>
+                <span class="detail-label">MAIN CONTRIBUTION</span>
+                <ul>
+                  <li>
+                    Meninjau dan menyesuaikan struktur database serta relasi
+                    antar entitas.
+                  </li>
+                  <li>Mengembangkan REST API untuk berbagai modul sistem.</li>
+                  <li>
+                    Mengimplementasikan business logic, validasi data,
+                    pengelolaan file, dan alur aplikasi.
+                  </li>
+                  <li>
+                    Authentication &amp; authorization menggunakan JWT, OTP, dan
+                    RBAC.
+                  </li>
+                  <li>Testing, debugging, dan troubleshooting backend.</li>
+                </ul>
+              </div>
+              <div>
+                <span class="detail-label">TECH STACK</span>
+                <div class="tags">
+                  <span>Go</span><span>Echo</span><span>MariaDB</span
+                  ><span>REST API</span><span>JWT</span><span>RBAC</span>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card featured">
+            <div class="project-meta">
+              <span>PROJECT 02</span>
+              <span class="status done">SELESAI</span>
+            </div>
+            <div class="project-main">
+              <div>
+                <h3>Sistem Informasi Manajemen Tamu dan Seating Event</h3>
+                <p class="role">Database Designer</p>
+              </div>
+              <p class="project-description">
+                Sistem manajemen tamu yang dikembangkan untuk membantu Event
+                Organizer dalam mengelola data tamu, meja, dan seating plan pada
+                suatu acara. Sistem juga menyediakan rekap kehadiran pada setiap
+                event, sehingga penyelenggara dapat melihat siapa saja yang
+                hadir pada masing-masing meja serta jumlah tamu yang datang.
+              </p>
+            </div>
+
+            <div class="project-details">
+              <div>
+                <span class="detail-label">MAIN CONTRIBUTION</span>
+                <ul>
+                  <li>
+                    Merancang struktur dan relasi database berdasarkan kebutuhan
+                    sistem dan alur operasional event.
+                  </li>
+                  <li>
+                    Mengimplementasikan database menggunakan Supabase
+                    (PostgreSQL).
+                  </li>
+                </ul>
+              </div>
+              <div>
+                <span class="detail-label">TECH STACK</span>
+                <div class="tags">
+                  <span>Supabase</span><span>PostgreSQL</span
+                  ><span>Supabase Auto-generated CRUD</span>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-meta">
+              <span>PROJECT 03</span>
+              <span class="status running">BERJALAN</span>
+            </div>
+            <div class="project-main">
+              <div>
+                <h3>Sistem Manajemen Bengkel</h3>
+                <p class="role">Backend Developer</p>
+              </div>
+              <p class="project-description">
+                Sistem manajemen bengkel untuk pelanggan, kendaraan, sparepart,
+                montir, transaksi, pemesanan servis online, riwayat servis, dan
+                afiliasi montir freelance dengan bengkel.
+              </p>
+            </div>
+            <div class="project-details">
+              <div>
+                <span class="detail-label">MAIN CONTRIBUTION</span>
+                <ul>
+                  <li>
+                    Mengelola database, relasi antar entitas, dan revisi ERD.
+                  </li>
+                  <li>
+                    Mengembangkan REST API untuk modul operasional bengkel.
+                  </li>
+                  <li>Business logic dan proses transaksi melalui API.</li>
+                  <li>Pengelolaan sparepart dan stok.</li>
+                  <li>Debugging, troubleshooting, dan optimasi query.</li>
+                </ul>
+              </div>
+              <div>
+                <span class="detail-label">TECH STACK</span>
+                <div class="tags">
+                  <span>Go</span><span>Echo</span><span>MariaDB</span
+                  ><span>REST API</span><span>JWT</span>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-meta">
+              <span>PROJECT 04</span>
+              <span class="status running">BERJALAN</span>
+            </div>
+            <div class="project-main">
+              <div>
+                <h3>Sistem Informasi Hospitality</h3>
+                <p class="role">Backend Developer</p>
+              </div>
+              <p class="project-description">
+                Sistem manajemen hospitality untuk mendukung operasional resor,
+                meliputi reservasi, inventori, penjualan, serta akuntansi.
+              </p>
+            </div>
+            <div class="project-details">
+              <div>
+                <span class="detail-label">MAIN CONTRIBUTION</span>
+                <ul>
+                  <li>Mengelola database dan relasi antar entitas.</li>
+                  <li>
+                    Mengembangkan REST API untuk reservasi dan operasional
+                    resor.
+                  </li>
+                  <li>
+                    Integrasi transaksi penjualan dengan inventori, termasuk
+                    batch stock.
+                  </li>
+                  <li>
+                    Mengembangkan modul akuntansi: jurnal, buku besar, dan
+                    laporan keuangan.
+                  </li>
+                  <li>
+                    Mengintegrasikan modul agar data antar proses saling
+                    terhubung.
+                  </li>
+                  <li>Testing, debugging, dan troubleshooting.</li>
+                </ul>
+              </div>
+              <div>
+                <span class="detail-label">TECH STACK</span>
+                <div class="tags">
+                  <span>Go</span><span>Echo</span><span>MariaDB</span
+                  ><span>REST API</span><span>JWT</span><span>RBAC</span>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-meta">
+              <span>PROJECT 05</span>
+              <span class="status running">BERJALAN</span>
+            </div>
+            <div class="project-main">
+              <div>
+                <h3>Company Profile</h3>
+                <p class="role">Project Manager & Backend Developer</p>
+              </div>
+              <p class="project-description">
+                Website untuk memperkenalkan informasi perusahaan, layanan,
+                portofolio, dan informasi pendukung lainnya secara digital.
+                Website juga dilengkapi dengan halaman admin untuk mengelola
+                konten website secara dinamis.
+              </p>
+            </div>
+            <div class="project-details">
+              <div>
+                <span class="detail-label">MAIN CONTRIBUTION</span>
+                <ul>
+                  <li>
+                    Mengatur timeline, pembagian tugas, dan koordinasi tim
+                    selama proses pengembangan.
+                  </li>
+                  <li>
+                    Menjadi penghubung antara kebutuhan klien dan tim
+                    pengembang.
+                  </li>
+                  <li>Merancang struktur database sesuai kebutuhan sistem.</li>
+                  <li>
+                    Mengembangkan REST API untuk mendukung kebutuhan website.
+                  </li>
+                  <li>Testing, debugging, dan troubleshooting.</li>
+                </ul>
+              </div>
+              <div>
+                <span class="detail-label">TECH STACK</span>
+                <div class="tags">
+                  <span>Go</span><span>Echo</span><span>MariaDB</span
+                  ><span>REST API</span><span>JWT</span><span>RBAC</span>
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section id="contact" class="section contact">
+        <div class="section-label">04 / CONTACT</div>
+        <div class="contact-box">
+          <div>
+            <p class="eyebrow">LET'S BUILD SOMETHING</p>
+            <h2>Have a system in mind?<br /><em>Let's talk.</em></h2>
+          </div>
+          <a class="contact-button" href="mailto:lauraawijaya05@gmail.com">
+            <span>lauraawijaya05@gmail.com</span>
+            <b>↗</b>
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <span>© 2026 Laura Wijaya Dinata</span>
+      <span>Backend Developer Portfolio</span>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
